@@ -1,0 +1,20 @@
+National Instruments - Products Activation Request Information
+
+Products Activation Information
+
+	Computer ID:	52FN-2DBV-8KBW-96HT
+
+	Feature:	TestStand 4.0 Base Deployment Engine
+	Version:	4.0
+	Serial Number:	M83X07307
+
+	Feature:	Vision Development Module Vision Run-Time 2014 SP1
+	Version:	14.0
+	Serial Number:	H21M14939
+
+
+Directions:
+
+   To activate your products via the Web, go to ni.com/activate and follow the
+   directions. All of the information you will need is listed above.
+

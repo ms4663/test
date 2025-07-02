@@ -1,0 +1,14 @@
+<Transactions>
+	<Transaction Name='SMARTPROD_FIND_TRACK_ITEM'>
+		<Data>
+			<IN>TEST123</IN>
+		</Data>
+		<Result>Status_Flag:True
+Status_Message: 1 data elements retrieved.
+Item_1:AVALANCHE
+Item_2: LAST_PROC
+Line_1:AVALANCHE,LAST_PROC
+</Result>
+	</Transaction>
+
+</Transactions>

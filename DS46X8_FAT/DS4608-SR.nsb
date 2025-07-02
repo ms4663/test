@@ -1,0 +1,14 @@
+<Transactions>
+	<Transaction Name='SMARTPROD_FIND_TRACK_ITEM'>
+		<Data>
+			<IN>DS4608-SR</IN>
+		</Data>
+		<Result>Status_Flag:True
+Status_Message: 1 data elements retrieved.
+Item_1:DS4608-SR00007ZZWW
+Item_2: LAST_PROC
+Line_1:DS4608-SR,LAST_PROC
+</Result>
+	</Transaction>
+
+</Transactions>

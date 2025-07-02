@@ -1,0 +1,120 @@
+[_ActiveSyncDetect]
+callConv = 102
+name = ActiveSyncDetect
+paramSize = 4
+
+[_Close_Comport]
+callConv = 102
+name = Close_Comport
+paramSize = 4
+
+[_GET_APP]
+callConv = 102
+name = GET_APP
+paramSize = 16
+
+[_GetFileData]
+callConv = 102
+name = GetFileData
+paramSize = 12
+
+[_Initialize_Comport]
+callConv = 102
+name = Initialize_Comport
+paramSize = 8
+
+[_iocontrol]
+callConv = 102
+name = iocontrol
+paramSize = 28
+
+[_LOAD_APP]
+callConv = 102
+name = LOAD_APP
+paramSize = 16
+
+[_PowerSupplyInit]
+callConv = 102
+name = PowerSupplyInit
+paramSize = 16
+
+[_PowerSupplyMeasure_Current]
+callConv = 102
+name = PowerSupplyMeasure_Current
+paramSize = 8
+
+[_PowerSupplyON_OFF]
+callConv = 102
+name = PowerSupplyON_OFF
+paramSize = 8
+
+[_PowerSupplyReset]
+callConv = 102
+name = PowerSupplyReset
+paramSize = 4
+
+[_PowerSupplyVolatgeCurrent]
+callConv = 102
+name = PowerSupplyVolatgeCurrent
+paramSize = 12
+
+[_PS_Close@4]
+callConv = 101
+name = PS_Close
+paramSize = 4
+
+[_PS_GetErrorMsg@4]
+callConv = 101
+name = PS_GetErrorMsg
+paramSize = 4
+
+[_PS_Init@16]
+callConv = 101
+name = PS_Init
+paramSize = 16
+
+[_PS_Measure_Current@8]
+callConv = 101
+name = PS_Measure_Current
+paramSize = 8
+
+[_PS_Measure_Voltage@8]
+callConv = 101
+name = PS_Measure_Voltage
+paramSize = 8
+
+[_PS_PWOnOff@8]
+callConv = 101
+name = PS_PWOnOff
+paramSize = 8
+
+[_PS_Reset@4]
+callConv = 101
+name = PS_Reset
+paramSize = 4
+
+[_PS_SelfTest@8]
+callConv = 101
+name = PS_SelfTest
+paramSize = 8
+
+[_PS_SetDigitalIO@8]
+callConv = 101
+name = PS_SetDigitalIO
+paramSize = 8
+
+[_PS_SetVoltCurrLevel@20]
+callConv = 101
+name = PS_SetVoltCurrLevel
+paramSize = 20
+
+[_RUN_APP]
+callConv = 102
+name = RUN_APP
+paramSize = 16
+
+[_RUN_APP_NW]
+callConv = 102
+name = RUN_APP_NW
+paramSize = 16
+

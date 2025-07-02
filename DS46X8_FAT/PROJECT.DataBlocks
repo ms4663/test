@@ -1,0 +1,50 @@
+
+START OF PROJECT DATA$
+3$
+
+#@HEADER_TEXT Mnemonic,Field,Logic
+
+MTP_LANGUAGE;SPANISH;TRUE$
+
+NO MORE PROJECT DATA$
+
+
+START OF NETWORK DATA$
+3$
+
+#@HEADER_TEXT Mnemonic,Field,Logic
+
+NETWORK_INTERFACE;NETIPC;TRUE$
+NETWORK_TRANS_BLOCK;AVAILABLE NETWORK TRANS;TRUE$
+
+NO MORE NETWORK DATA$
+
+
+START OF AVAILABLE NETWORK TRANS$
+6$
+
+#@HEADER_TEXT TransMnemonic,System,TransCmd,Host,Service,Logic
+
+LOAD_RESULTS;SMQSPROD;LOAD_RESULTS;rex1amsrvs02.am.sanm.corp;fo_info; TRUE$
+PARAMETRIC;SMARTPROD;PARAMETRIC;rex1amsrvs02.am.sanm.corp;fo_info; TRUE$
+FAB_UNIT;SMARTPROD;UPDATE_PROC_TRACK;camclnt.comm.mot.com;fo_info;TRUE$     #Only used if sending a FAB transaction
+
+NO MORE AVAILABLE NETWORK TRANS$
+
+
+START OF FACILITY INTERFACE$
+3$
+
+#@HEADER_TEXT Mnemonic,Field,Logic
+
+FACILITY_SITE;REYNOSA;TRUE$
+FACILITY_SOCKET_SERVER;rex1srvs02.am.sanm.corp;TRUE$     #IP Address or DNS name
+FACILITY_SOCKET_PORT;22374;TRUE$     #Port number to use
+FACILITY_SERVER_TYPE;SMARTPROD;TRUE$     #Server type
+FACILITY_PRODUCTION_LINE;ZEBRA;TRUE$     #Production line in which this project will be deployed
+TSN_ENTRY_METHOD;LABEL;TRUE$     #LABEL or ELECTRONIC
+SFCS_PATH;P:\\;TRUE$     #Path where ShopFloor System log file is created.    \\rex1amsrvs01\ParametricData   am\rex1_l01  Cirrus2015
+GRR_PATH;C:\\TEST_DATA\\ParametricData\\GRR\\;TRUE$     #Path where local files are stored for GRR analysis
+
+NO MORE FACILITY INTERFACE$
+

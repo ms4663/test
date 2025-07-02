@@ -1,0 +1,23 @@
+DS4608_FAT1
+Ni Vision = M83X95728
+Test Stand = M83x90743
+POWERSUPPY = E3648A = CERTIFICATION = ???
+
+microphone - calibration serial number ???
+sensitivity number:55.94
+
+Accelerometer - calibration serial number ???
+sensitivity number:55.94
+
+
+DS4608_FAT2
+Ni Vision = M83X95726
+Test Stand = M83x90753
+POWERSUPPY = E3648A = CERTIFICATION = ??
+
+microphone - calibration serial number ???
+sensitivity number:45.48
+
+
+Accelerometer - calibration serial number ???
+sensitivity number:55.94

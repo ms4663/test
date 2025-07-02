@@ -1,0 +1,14 @@
+<manifest>
+	<release release_id="" version="1.0.0.0" UTCTime="2/14/2013 5:30:48 PM" description="Update Loop for Retest" username="fgtc74"/>
+	<released-files>
+		<dir allow-extra-files="true" name =".">
+			<file name ="TEST.seq">
+				<date>02-14-2013 17:24:38</date>
+				<md5>A8EBA194827C4FDFFD37F5E3A284BE11</md5>
+				<size>54923</size>
+				<cc-version>\main\1</cc-version>
+				<cc-rule>\main\RELEASED</cc-rule>
+			</file>
+		</dir>
+	</released-files>
+</manifest>

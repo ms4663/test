@@ -1,0 +1,7 @@
+
+6/21/21    SFW std  added CAAEIS00-002-R02D0  EC-45272
+12/xx/21    SFW std   CAAEIS00-002-R03 added to validate in NCR Models
+01/19/22    SFW   CAAEIS00-002-R03 added to validate in FAT Stn for all Stn Models( EC-50724), 
+07/25/22    SFW   PAAEIS00-002-R04 added to validate in FAT Stn for all STD Stn Models(EC-55014)K03E021173
+11/03/22    DS4608-DL00257ZZWW New Model SFW: CAAEIC19-001-R00D0.
+12/13/2023, The test sequence was modified, where we added two models for the Uniformity ratio EC033 test step(2356-4608, DS4608-DL) New project DS4608_FAT_R16

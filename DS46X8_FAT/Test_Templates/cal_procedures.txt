@@ -1,0 +1,39 @@
+#-----------------------------------------------------------------------------------------
+START OF CAL PROCEDURES$
+9$
+
+START_INSTRUCT;INSTRUCT;SIMPLEX INSTR;Simplex calibration;Ok,Cancel;DC;DC;DC;TRUE$
+CAL_SIMPLEX;CAL;SIMPLEX PATH;RX;116;100;1000;5;TRUE$
+END_INSTR;INSTRUCT;CAL LAST INSTR;Finish calibration;OK;DC;DC;DC;TRUE$
+
+NO MORE CAL PROCEDURES$
+
+#-----------------------------------------------------------------------------------------
+START OF SIMPLEX INSTR$
+4$
+LINE_1;Connect cable 1 to port x;DC;TRUE$
+LINE_2;Connect cable 2 to port y;DC;TRUE$
+LINE_3;Connect cable 3 to port z;DC;TRUE$
+
+NO MORE SIMPLEX INSTR$
+#-----------------------------------------------------------------------------------------
+START OF CAL LAST INSTR$
+4$
+
+LINE_1;Disconnect cable 1;DC;TRUE$
+LINE_2;Disconnect cable 2;DC;TRUE$
+LINE_3;Disconnect cable 3;DC;TRUE$
+
+NO MORE CAL LAST INSTR$
+#-----------------------------------------------------------------------------------------
+START OF SIMPLEX PATH$
+3$
+
+FROM;ESG;TRUE$
+TO;RX PORT;TRUE$
+SCU;OCTOPOD;TRUE$
+ENABLE;ENBL_SMPLX_RXPATH;TRUE$
+DISABLE;DEFAULT_COND;TRUE$
+
+NO MORE SIMPLEX PATH$
+#-----------------------------------------------------------------------------------------

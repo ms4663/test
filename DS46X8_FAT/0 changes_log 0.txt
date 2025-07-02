@@ -1,0 +1,9 @@
+
+Version	By		Date		Changes
+
+R1	Andre P		02/14/2019	Initial release for manufacturing 
+
+R2 	J Carlos	02/20/2019	Added TPD_upload to log unit software. Log only if user is  "a_testuser" 
+					Execute "MIMIC Commands Rev 7" to retrieve the Sw string directly from the unit.
+
+
